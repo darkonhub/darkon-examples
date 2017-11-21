@@ -1,7 +1,7 @@
 # darkon-examples
 Examples and use cases for darkon
 
-##install python package
+## install python package
 pip install darkon
 
 ## mnist-cnn
