@@ -1,0 +1,3 @@
+darkon==0.0.2
+matplotlib
+tensorflow>=1.3.0
