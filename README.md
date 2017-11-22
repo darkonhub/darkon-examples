@@ -11,6 +11,6 @@ Then, retrain the model after removing 100 most helpful training samples and 100
 
 ## With cifar10-resnet
 - [example code](https://github.com/darkonhub/darkon-examples/blob/master/cifar10-resnet/influence_cifar10_resnet.ipynb)
-- [html view](https://rawgit.com/darkonhub/darkon-examples/master/cifar10-resnet/influence_cifar10_resnet.html)
+- [html view](http://nbviewer.jupyter.org/github/darkonhub/darkon-examples/blob/master/cifar10-resnet/influence_cifar10_resnet.ipynb)
 - dataset: [cifar10](https://www.cs.toronto.edu/~kriz/cifar.html)
 - network: [resnet110](https://github.com/wenxinxu/resnet-in-tensorflow)
