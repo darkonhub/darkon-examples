@@ -1,5 +1,5 @@
 # darkon-examples
-Examples and use cases for darkon
+Examples and use cases for [darkon](https://github.com/darkonhub/darkon)
 
 ## Install python package
 pip install darkon
