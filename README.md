@@ -17,8 +17,12 @@ Then, retrain the model after removing 100 most helpful training samples and 100
 * [example code](https://github.com/darkonhub/darkon-examples/blob/master/cifar10-resnet/influence_cifar10_resnet.ipynb)
 * [html view](http://nbviewer.jupyter.org/github/darkonhub/darkon-examples/blob/master/cifar10-resnet/influence_cifar10_resnet.ipynb)
 
-### Example for mislabel
-* [example code](https://github.com/darkonhub/darkon-examples/blob/master/cifar10-resnet/influence_cifar10_resnet_mislabel.ipynb)
-* [html view](http://nbviewer.jupyter.org/github/darkonhub/darkon-examples/blob/master/cifar10-resnet/influence_cifar10_resnet_mislabel.ipynb)
+### Example for mislabel with all of layers
+* [example code](https://github.com/darkonhub/darkon-examples/blob/master/cifar10-resnet/influence_cifar10_resnet_mislabel_all_layers.ipynb)
+* [html view](http://nbviewer.jupyter.org/github/darkonhub/darkon-examples/blob/master/cifar10-resnet/influence_cifar10_resnet_mislabel_all_layers.ipynb)
+
+### Example for mislabel with one top layer
+* [example code](https://github.com/darkonhub/darkon-examples/blob/master/cifar10-resnet/influence_cifar10_resnet_mislabel_one_layer.ipynb)
+* [html view](http://nbviewer.jupyter.org/github/darkonhub/darkon-examples/blob/master/cifar10-resnet/influence_cifar10_resnet_mislabel_one_layer.ipynb)
 
 
