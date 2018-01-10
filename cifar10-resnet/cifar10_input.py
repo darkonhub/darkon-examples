@@ -5,7 +5,7 @@ import tarfile
 from six.moves import urllib
 import sys
 import numpy as np
-import cPickle
+import pickle
 import os
 import cv2
 
@@ -45,7 +45,7 @@ def maybe_download_and_extract():
         filepath, _ = urllib.request.urlretrieve(DATA_URL, filepath, _progress)
         print()
         statinfo = os.stat(filepath)
-        print('Successfully downloaded', filename, statinfo.st_size, 'bytes.')
+        print(('Successfully downloaded', filename, statinfo.st_size, 'bytes.'))
         tarfile.open(filepath, 'r:gz').extractall(dest_directory)
 
 
@@ -60,7 +60,7 @@ def _read_one_batch(path, is_random_label):
     :return: image numpy arrays and label numpy arrays
     '''
     fo = open(path, 'rb')
-    dicts = cPickle.load(fo)
+    dicts = pickle.load(fo)
     fo.close()
 
     data = dicts['data']
@@ -85,7 +85,7 @@ def read_in_all_images(address_list, shuffle=True, is_random_label = False):
     label = np.array([])
 
     for address in address_list:
-        print 'Reading images from ' + address
+        print('Reading images from ' + address)
         batch_data, batch_label = _read_one_batch(address, is_random_label)
         # Concatenate along axis 0 by default
         data = np.concatenate((data, batch_data))
@@ -100,7 +100,7 @@ def read_in_all_images(address_list, shuffle=True, is_random_label = False):
 
 
     if shuffle is True:
-        print 'Shuffling'
+        print('Shuffling')
         order = np.random.permutation(num_data)
         data = data[order, ...]
         label = label[order]
