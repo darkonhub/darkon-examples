@@ -28,8 +28,8 @@ Then, retrain the model after removing 100 most helpful training samples and 100
 
 ## darkon.Gradcam
 
-### ImageNet resnet
-* model: [used pre trained model in TF slim](http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz)
+### ImageNet, resnet
+* model: [used pre-trained model in TF slim](http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz)
 * network: [resnet v1 50 in TF slim](https://github.com/tensorflow/models/blob/master/research/slim/nets/resnet_v1.py)
 * Gradcam & Guided Gradcam
   * [example code](https://github.com/darkonhub/darkon-examples/blob/master/gradcam/GradcamDemo.ipynb)
