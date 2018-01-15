@@ -1,0 +1,4 @@
+darkon
+opencv-python
+pandas
+matplotlib

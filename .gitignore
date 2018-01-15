@@ -102,3 +102,4 @@ ENV/
 .idea/
 workspace/
 cifar10_data/
+*.ckpt
