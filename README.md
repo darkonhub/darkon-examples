@@ -38,6 +38,6 @@ Then, retrain the model after removing 100 most helpful training samples and 100
 ### Sentence polarity dataset, cnn text classification
 * model: [used pre-trained model](https://raw.githubusercontent.com/darkonhub/darkon-examples/master/gradcam/sequence.tar)
 * network: [cnn text classification by dennybritz](https://github.com/dennybritz/cnn-text-classification-tf)
-* Gradcam & Guided Gradcam
+* Heatmap
   * [example code](https://github.com/darkonhub/darkon-examples/blob/master/gradcam/GradcamDemoSequence.ipynb)
   * [html view](http://nbviewer.jupyter.org/github/darkonhub/darkon-examples/blob/master/gradcam/GradcamDemoSequence.ipynb)
