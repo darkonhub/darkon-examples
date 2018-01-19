@@ -103,3 +103,4 @@ ENV/
 workspace/
 cifar10_data/
 *.ckpt
+gradcam/test/data/sequence/
