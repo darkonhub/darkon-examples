@@ -1002,7 +1002,7 @@ ear, spike, capitulum
 toilet tissue, toilet paper, bathroom tissue'''.split("\n")
 
 def imagenet_decoder(preds, top=5):
-  preds_sort = np.argsort(preds[0][0])
+  preds_sort = np.argsort(preds[0])
   top_indices = preds_sort[-top:][::-1]
   result = []
   for i in range(top):
